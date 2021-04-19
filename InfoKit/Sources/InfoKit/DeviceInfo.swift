@@ -223,13 +223,3 @@ public class DeviceInfo {
             return deviceFamily == .simulator
         }
     }}
-
-/*
- Capabilities/items to include:
- 
- * OS major/minor/release versions
- * Hostname
- * CPU speed
- * Jailbreak detection
-
- */

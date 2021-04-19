@@ -18,6 +18,8 @@ public class SystemInfo {
     
     private init() {}
     
+    // TODO: OS major/minor/release version numbers
+    
     public var osVersion: String {
         get {
             let version = UIDevice.current.systemVersion
