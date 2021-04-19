@@ -1,6 +1,6 @@
 //
 //  DeviceInfo.swift
-//  DeviceInfo
+//
 //
 //  Created by Steven Nakhla on 2/19/21.
 //
