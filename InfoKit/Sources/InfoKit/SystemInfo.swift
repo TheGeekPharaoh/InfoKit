@@ -19,6 +19,8 @@ public class SystemInfo {
     private init() {}
     
     // TODO: OS major/minor/release version numbers
+    // TODO: Free/used disk space
+    // TODO: Battery level
     
     public var osVersion: String {
         get {

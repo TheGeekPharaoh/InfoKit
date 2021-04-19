@@ -24,6 +24,9 @@ public class NetworkInfo {
     
     private init() {}
     
+    // TODO: Network type (cellular, wifi, etc.)
+    // TODO: Carrier info
+    
     public var interfaceNames: [String] {
         get {
             var names: [String] = []
