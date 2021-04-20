@@ -56,7 +56,10 @@ struct ContentView: View {
                 }
                 
                 Section(header: Text("Application Info")) {
-                    
+                    Text("App Name: \(AppInfo.shared.applicationName ?? "Unknown")")
+                    Text("App Version: \(AppInfo.shared.applicationVersion ?? "Unknown")")
+                    Text("App Revision: \(AppInfo.shared.applicationRevision ?? "Unknown")")
+                    Text("Bundle ID: \(AppInfo.shared.bundleIdentifier ?? "Unknown")")
                 }
                 
                 Section(header: Text("Network Info")) {

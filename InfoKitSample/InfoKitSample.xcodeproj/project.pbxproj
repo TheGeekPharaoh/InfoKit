@@ -9,16 +9,12 @@
 /* Begin PBXBuildFile section */
 		2AAC07BB262E486000FC7124 /* InfoKitSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07A8262E486000FC7124 /* InfoKitSampleApp.swift */; };
 		2AAC07BC262E486000FC7124 /* InfoKitSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07A8262E486000FC7124 /* InfoKitSampleApp.swift */; };
-		2AAC07BD262E486000FC7124 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07A9262E486000FC7124 /* ContentView.swift */; };
-		2AAC07BE262E486000FC7124 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07A9262E486000FC7124 /* ContentView.swift */; };
 		2AAC07BF262E486000FC7124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC07AA262E486000FC7124 /* Assets.xcassets */; };
 		2AAC07C0262E486000FC7124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC07AA262E486000FC7124 /* Assets.xcassets */; };
 		2AAC07CF262E489C00FC7124 /* NetworkInterfaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07CB262E489C00FC7124 /* NetworkInterfaceList.swift */; };
 		2AAC07D0262E489C00FC7124 /* NetworkInterfaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07CB262E489C00FC7124 /* NetworkInterfaceList.swift */; };
 		2AAC07D1262E489C00FC7124 /* NetworkInterfaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07CC262E489C00FC7124 /* NetworkInterfaceDetails.swift */; };
 		2AAC07D2262E489C00FC7124 /* NetworkInterfaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07CC262E489C00FC7124 /* NetworkInterfaceDetails.swift */; };
-		2AAC07D3262E489C00FC7124 /* InfoKitSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07CD262E489C00FC7124 /* InfoKitSampleApp.swift */; };
-		2AAC07D4262E489C00FC7124 /* InfoKitSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07CD262E489C00FC7124 /* InfoKitSampleApp.swift */; };
 		2AAC07D5262E489C00FC7124 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07CE262E489C00FC7124 /* ContentView.swift */; };
 		2AAC07D6262E489C00FC7124 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC07CE262E489C00FC7124 /* ContentView.swift */; };
 		2AAC07DD262E48EA00FC7124 /* InfoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2AAC07DC262E48EA00FC7124 /* InfoKit */; };
@@ -26,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		2AAC07A8262E486000FC7124 /* InfoKitSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoKitSampleApp.swift; sourceTree = "<group>"; };
-		2AAC07A9262E486000FC7124 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AAC07AA262E486000FC7124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AAC07AF262E486000FC7124 /* InfoKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAC07B2262E486000FC7124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,7 +30,6 @@
 		2AAC07BA262E486000FC7124 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2AAC07CB262E489C00FC7124 /* NetworkInterfaceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterfaceList.swift; sourceTree = "<group>"; };
 		2AAC07CC262E489C00FC7124 /* NetworkInterfaceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterfaceDetails.swift; sourceTree = "<group>"; };
-		2AAC07CD262E489C00FC7124 /* InfoKitSampleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoKitSampleApp.swift; sourceTree = "<group>"; };
 		2AAC07CE262E489C00FC7124 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,8 +68,6 @@
 			children = (
 				2AAC07CE262E489C00FC7124 /* ContentView.swift */,
 				2AAC07A8262E486000FC7124 /* InfoKitSampleApp.swift */,
-				2AAC07A9262E486000FC7124 /* ContentView.swift */,
-				2AAC07CD262E489C00FC7124 /* InfoKitSampleApp.swift */,
 				2AAC07CC262E489C00FC7124 /* NetworkInterfaceDetails.swift */,
 				2AAC07CB262E489C00FC7124 /* NetworkInterfaceList.swift */,
 				2AAC07AA262E486000FC7124 /* Assets.xcassets */,
@@ -219,8 +211,6 @@
 				2AAC07CF262E489C00FC7124 /* NetworkInterfaceList.swift in Sources */,
 				2AAC07D1262E489C00FC7124 /* NetworkInterfaceDetails.swift in Sources */,
 				2AAC07D5262E489C00FC7124 /* ContentView.swift in Sources */,
-				2AAC07BD262E486000FC7124 /* ContentView.swift in Sources */,
-				2AAC07D3262E489C00FC7124 /* InfoKitSampleApp.swift in Sources */,
 				2AAC07BB262E486000FC7124 /* InfoKitSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,8 +222,6 @@
 				2AAC07D0262E489C00FC7124 /* NetworkInterfaceList.swift in Sources */,
 				2AAC07D2262E489C00FC7124 /* NetworkInterfaceDetails.swift in Sources */,
 				2AAC07D6262E489C00FC7124 /* ContentView.swift in Sources */,
-				2AAC07BE262E486000FC7124 /* ContentView.swift in Sources */,
-				2AAC07D4262E489C00FC7124 /* InfoKitSampleApp.swift in Sources */,
 				2AAC07BC262E486000FC7124 /* InfoKitSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 456;
 				DEVELOPMENT_TEAM = CQQR6S93B5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -366,6 +355,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = net.odyssi.InfoKitSample;
 				PRODUCT_NAME = InfoKitSample;
 				SDKROOT = iphoneos;
@@ -380,6 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 456;
 				DEVELOPMENT_TEAM = CQQR6S93B5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -388,6 +379,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = net.odyssi.InfoKitSample;
 				PRODUCT_NAME = InfoKitSample;
 				SDKROOT = iphoneos;
